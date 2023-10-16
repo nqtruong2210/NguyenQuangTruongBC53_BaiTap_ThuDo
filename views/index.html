@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CyberLearn Dressing Room</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./../assets/css/style.css" />
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="text-center">
+            <img src="./../assets/images/cybersoft.png" alt="Card image" />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+              - Virtual Dressing Room
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="nav nav-pills" id="accessoryGroup">
+        </ul>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <!-- Tab panes -->
+        <div class="tab-content" id="tab-detail">
+          <div class="tab-pane fade show active" id="tabTopClothes" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabTopClothes-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabBotClothes" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabBotClothes-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabShoes" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabShoes-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabHandBags" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabHandBags-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabNecklaces" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabNecklaces-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabHairStyle" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabHairStyle-row">
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabBackground" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row" id="tabBackground-row">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contain">
+          <div class="body" id="body"></div>
+          <div class="model" id="model"></div>
+          <div class="hairstyle" id="hairstyle"></div>
+          <div class="necklace" id="necklace"></div>
+          <div class="bikinitop" id="bikinitop"></div>
+          <div class="bikinibottom" id="bikinibottom"></div>
+          <div class="handbag" id="handbag"></div>
+          <div class="feet" id="feet"></div>
+          <div class="background" id="background"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- thư viện Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"
+      integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./../models/AccessoryList.js"></script>
+    <script src="./../models/Accessory.js"></script>
+    <!-- <script type="module" src="./../utils/callData.js"></script> -->
+    <script src="./../services/AccessoryServ.js"></script>
+    <script src="./../controllers/main.js"></script>
+</body>
+
+</html>
